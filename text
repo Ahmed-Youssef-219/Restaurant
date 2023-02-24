@@ -1,0 +1,27 @@
+/* import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar'; */
+
+
+
+
+
+{/* <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        slidesPerView={1}
+        spaceBetween={20}
+        navigation
+        pagination={true}
+        scrollbar={{ draggable: true }}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+        className='w-full h-full'
+        >
+            <SwiperSlide  className='w-full h-full' ><img className='w-full h-[20rem] md:h-[30rem] lg:h-full m-auto' src={images.table} alt="table" /></SwiperSlide>
+            <SwiperSlide className='w-full h-full' ><img className='w-full h-[20rem] md:h-[30rem] lg:h-full m-auto' src={images.table_1} alt="table_1" /></SwiperSlide>
+            <SwiperSlide className='w-full h-full' ><img className='w-full h-[20rem] md:h-[30rem] lg:h-full m-auto' src={images.table_2} alt="table_2" /></SwiperSlide>
+            <SwiperSlide className='w-full h-full' ><img className='w-full h-[20rem] md:h-[30rem] lg:h-full m-auto' src={images.table_3} alt="table_3" /></SwiperSlide>
+        </Swiper> */}
