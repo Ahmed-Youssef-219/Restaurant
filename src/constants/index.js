@@ -1,3 +1,4 @@
 import images from "./images";
+import { dishesData } from "./data";
 
-export {images};
+export {images , dishesData};

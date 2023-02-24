@@ -8,7 +8,7 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 
 const Navbar = ({isDark,setIsDark}) => {
     
-    const [isActive, setIsActive] = useState(false)
+    const [isActive, setIsActive] = useState(true)
     const handleMood = () => {
         setIsDark((prevState) => {
             return !prevState;

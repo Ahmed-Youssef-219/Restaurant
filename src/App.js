@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import About from "./component/About";
+import BestDishes from "./component/BestDishes";
 import Home from "./component/Home";
 import Navbar from "./component/Navbar";
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar isDark={isDark} setIsDark={setIsDark} />
       <Home />
       <About />
+      <BestDishes />
     </div>
   );
 }
