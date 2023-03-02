@@ -1,5 +1,7 @@
 import images from './images';
 
+const tableNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 const dishesData = [
     {
         image: images.chicken_skewers,
@@ -45,10 +47,10 @@ const dishesData = [
     },
     {
         image: images.beef,
-        name: 'Chicken' ,
+        name: 'Beef' ,
         description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit',
         price: 35
     },
 ];
 
-export {dishesData} ;
+export {dishesData, tableNumbers} ;

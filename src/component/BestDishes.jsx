@@ -11,9 +11,6 @@ import "swiper/css/navigation";
 const BestDishes = () => {
 
 
-    useEffect(()=>{
-        console.log(dishesData);
-    },[])
   return (
     <div className='dark:bg-slate-800 bg-white'>
         <h1 className='mb-9 text-4xl dark:text-white text-slate-900 text-center'>Best Dishes</h1>
@@ -42,9 +39,6 @@ const BestDishes = () => {
                 clickable: true,
             }}
             navigation={true}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            className=''
         >  
         {
             dishesData.map((dish, index) => (

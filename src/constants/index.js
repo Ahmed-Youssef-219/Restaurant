@@ -1,4 +1,4 @@
 import images from "./images";
-import { dishesData } from "./data";
+import { dishesData, tableNumbers } from "./data";
 
-export {images , dishesData};
+export {images , dishesData, tableNumbers};

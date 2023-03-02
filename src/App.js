@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import About from "./component/About";
 import BestDishes from "./component/BestDishes";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 import Home from "./component/Home";
 import Navbar from "./component/Navbar";
 
@@ -13,6 +15,8 @@ function App() {
       <Home />
       <About />
       <BestDishes />
+      <Contact />
+      <Footer />
     </div>
   );
 }
