@@ -12,7 +12,7 @@ const BestDishes = () => {
 
 
   return (
-    <div className='dark:bg-slate-800 bg-white'>
+    <div className='dark:bg-slate-800 bg-white pt-24'>
         <h1 className='mb-9 text-4xl dark:text-white text-slate-900 text-center'>Best Dishes</h1>
         <Swiper
             breakpoints={{

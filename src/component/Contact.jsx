@@ -16,7 +16,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='flex items-center justify-center p-16 bg-second bg-cover bg-contain bg-center- bg-fixed'>
+        <div className='flex items-center justify-center pt-24 p-16 bg-second bg-cover bg-contain bg-center- bg-fixed'>
             <form action="#" onSubmit={handleSubmit} className='bg-white/40 dark:bg-slate-900/70 px-8 py-6 rounded-lg backdrop-blur w-[40rem]'>
                 <div className='text-center text-2xl sm:text-4xl text-slate-900 dark:text-white md:text-4xl'>
                     <h1>Contact Us</h1>
