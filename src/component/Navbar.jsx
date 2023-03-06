@@ -27,9 +27,9 @@ const Navbar = ({ isDark, setIsDark }) => {
     }
 
     return (
-        <div className="backdrop-blur-lg z-[100] fixed top-0 right-0 left-0 dark:bg-slate-900/90 bg-white/50 flex items-center justify-between border-black border-b-2 w-screen">
+        <div className="backdrop-blur-lg z-[100] fixed top-0 right-0 left-0 dark:bg-slate-900/90 bg-white/50 flex items-center justify-between border-black border-b-2 w-screen py-2 px-1 sm:px-4">
             <h1><Link onClick={handleLink} className='font-bold dark:text-slate-200 text-slate-800 py-3 px-4 text-5xl' to='/'>Gusto</Link></h1>
-            <ul className={`text-slate-800 dark:text-slate-200 md:items-center md:justify-between w-screen md:w-max flex-col md:flex-row absolute top-[72px] z-50 right-0 left-0 md:static items-end dark:bg-slate-900 bg-white font-bold dark:md:bg-transparent md:bg-transparent dark:backdrop-blur-lg dark:md:backdrop-blur-none  ${isActive ? 'clip-path-hidden' : 'clip-path-visible'} md:clip-path-none list-none flex text-slate-200  text-lg`}>
+            <ul className={`text-slate-800 dark:text-slate-200 md:items-center md:justify-between w-screen md:w-max flex-col md:flex-row absolute top-[66px] z-50 right-0 left-0 md:static items-end dark:bg-slate-900 bg-white font-bold dark:md:bg-transparent md:bg-transparent dark:backdrop-blur-lg dark:md:backdrop-blur-none  ${isActive ? 'clip-path-hidden' : 'clip-path-visible'} md:clip-path-none list-none flex text-slate-200  text-lg`}>
                 <li className="mx-2 w-full md:w-fit cursor-pointer px-3 py-1 hover:text-white md:hover:rounded hover:scale-95 dark:hover:bg-white dark:hover:text-slate-800 hover:bg-slate-900"><Link onClick={handleLink} className='p-3' to="/">Home</Link></li>
                 <li className="mx-2 w-full md:w-fit cursor-pointer px-3 py-1 hover:text-white md:hover:rounded hover:scale-95 dark:hover:bg-white dark:hover:text-slate-800 hover:bg-slate-900"><Link onClick={handleLink} className='p-3' to="/about">About</Link></li>
                 <li className="break-keep mx-2 w-full md:w-fit cursor-pointer px-3 py-1 hover:text-white md:hover:rounded hover:scale-95 dark:hover:bg-white dark:hover:text-slate-800 hover:bg-slate-900"><Link onClick={handleLink} className='p-3' to="/bestdishes">Best_Dishes</Link></li>
